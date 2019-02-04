@@ -12,7 +12,6 @@ function sortedSquares(A) {
     return A.sort((a,b)=>{return a-b})
 };
 
-
 let arr = [-4,-1,0,3,10]
 let otherArr = [-7,-3,2,3,11]
 console.log(sortedSquares(arr))
