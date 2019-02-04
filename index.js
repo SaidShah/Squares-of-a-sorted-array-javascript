@@ -9,7 +9,7 @@ function sortedSquares(A) {
     for(let i= 0;i<A.length;i++){
         A[i] = A[i]*A[i]
     }
-    return A.sort((a,b)=>{return a>b})
+    return A.sort((a,b)=>{return a-b})
 };
 
 
